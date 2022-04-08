@@ -102,8 +102,8 @@ a:hover {
 }
 .plane {
     position: absolute;
-    right: 300px;
-    top: 250px;
+    right: 200px;
+    top: 300px;
     width: 10%;
 }
 .bottom-cloud {
