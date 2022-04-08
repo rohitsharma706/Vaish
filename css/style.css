@@ -98,17 +98,19 @@ a:hover {
     position: absolute;
     right: 300px;
     top: 40px;
+    width: 10%;
 }
 .plane {
     position: absolute;
     right: 300px;
     top: 250px;
+    width: 10%;
 }
 .bottom-cloud {
     position: absolute;
     left: 250px;
     bottom: 300px;
-    
+    width: 10%;
 }
 .middle-container {
     text-align: center;
