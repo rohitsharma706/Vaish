@@ -1,0 +1,206 @@
+/* * {
+margin: 0;padding: 0;
+} */
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    /* text-align: center; */
+    font-family: 'Merriweather', serif;
+    /* font-size: 2em; */
+    color: #40514E;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #F473B9;
+    margin-bottom: 0;
+    /* line-height: 2; */
+    
+    /* 100%=16px */
+    /* 90px=562.5% */
+    /* 1em = M
+    2em = MM
+    90px= 5.625em */
+    /* rem=overwrite their parent font size */
+    /* margin-top: 50px auto 0 auto; */
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #fc95d4;
+    font-weight: normal;
+    /* 40px=2.5rem */
+    padding-bottom: 10px;
+}
+.small-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #F473B9;
+    font-weight: normal;
+    margin-top: 0;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fc95d4;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+
+}
+hr {
+    border: dotted #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a {
+    color: #fc76c8;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #fab6df;
+}
+.copyright {
+    color: #fc95d4;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/* div {
+    
+    height: 100vh;
+    width: 100vw;
+} */
+#pro {
+    text-decoration: underline;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+    
+}
+
+.firstcontainer {
+    /* top: 10vh; */
+    
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #FFDDEE;
+    width: 100vw;
+    
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.plane {
+    position: absolute;
+    right: 300px;
+    top: 250px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    
+}
+.middle-container {
+    text-align: center;
+    margin: 100px 0;
+}
+.bottom-container {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fdd8ef;
+    padding: 50px 0 20px;
+    
+}
+
+.profilepik {
+    width: 18%;
+}
+.skill1 {
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+    }
+.skill2 {
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+    }
+.skill3 {
+    width: 25%;
+    float: right;
+    margin-left: 2rem;
+    }
+.skill-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+   
+   
+}
+.skill-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+/* .code-skill-description {
+    clear: left;
+}
+.mech-skill-description {
+    clear: right;
+} */
+/* ********************************************************************* */
+.btn {
+    
+    background: #fc95d4;
+    background-image: -webkit-linear-gradient(top, #fc7fcc, #fdc2e7);
+    background-image: -moz-linear-gradient(top, #fc7fcc, #fdc2e7);
+    background-image: -ms-linear-gradient(top, #fc7fcc, #fdc2e7);
+    background-image: -o-linear-gradient(top, #fc7fcc, #fdc2e7);
+    background-image: linear-gradient(to bottom, #fc7fcc, #fdc2e7);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fc95d4;
+    background-image: -webkit-linear-gradient(top, #fdabde, #fce1f2);
+    background-image: -webkit-linear-gradient(top, #fdabde, #fce1f2);
+    background-image: -moz-linear-gradient(top, #fdabde, );
+    background-image: -webkit-linear-gradient(top, #fdabde, #fce1f2);
+    background-image: -ms-linear-gradient(top, #fdabde, );
+    background-image: -webkit-linear-gradient(top, #fdabde, #fce1f2);
+    background-image: -o-linear-gradient(top, #fdabde, );
+    background-image: -webkit-linear-gradient(top, #fdabde, #fce1f2);
+    background-image: linear-gradient(to bottom, #fdabde, );
+    text-decoration: none;
+  }
+  /* ******************************************************************************* */
+  .contact-message {
+      width: 40%;
+      margin: 40px auto 10px;
+  }
+  .pizzaline {
+    margin: 40px auto 80px;
+  }
+  .pizzaemoji {
+      width: 10%;
+      
+      
+  }
